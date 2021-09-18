@@ -63,3 +63,11 @@ body{
 .log-in span{
     color: #c0c0c0;
 }
+.login-img{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+.login-text{
+    line-height: 41px;
+}

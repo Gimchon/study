@@ -8,15 +8,18 @@
     <title>发现新世界</title>
 </head>
 <body>
-    <div class="main">
+    <div class="main login">
         <div class="login-box">
             <div class="title">
                 <h1>发现新世界</h1>
             </div>
             <p class="sub-title">给你一点自由</p>
-            <input type="text" class="login-input" />
-            <input type="text" class="login-input" />
-            <button class="login-btn">登录</button>
+            <input type="text" maxlength="5" class="login-input" />
+            <input type="password" maxlength="11" class="login-input" />
+            <button class="login-btn" id="btn">
+                <img class="login-img" src="./login.png" alt="" srcset="">
+                <span class="login-text">登录</span>
+            </button>
             <div class="log-in">
                 <a href="">注册</a>
                 <span>|</span>
@@ -24,5 +27,6 @@
             </div>
         </div>
     </div>
+    <script src="./login.js"></script>
 </body>
 </html>
