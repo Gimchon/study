@@ -71,3 +71,14 @@ body{
 .login-text{
     line-height: 41px;
 }
+.pwd-area{
+    position: relative;
+}
+.pwd-area img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    right: 10px;
+    top: 50%;
+    cursor: pointer;
+}
